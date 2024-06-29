@@ -1,0 +1,7 @@
+Monolithic Architecture
+Single Codebase: The entire application is developed and deployed as a single unit.
+Tightly Coupled Components: All components (e.g., user interface, business logic, data access) are tightly interwoven.
+Single Deployment: Any changes, even small ones, require redeploying the entire application.
+Scalability: Scaling is typically achieved by replicating the entire application across multiple servers, which can be inefficient.
+Development and Maintenance: Development teams work on the same codebase, which can lead to complexities in coordination, testing, and deployment.
+Performance: Performance issues in one part of the application can affect the entire system.
